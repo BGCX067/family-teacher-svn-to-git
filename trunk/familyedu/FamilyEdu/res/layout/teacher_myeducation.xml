@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#EFEFF3">
+
+    <!-- banner -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="用户名"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="刷新" />
+    </RelativeLayout>
+
+    
+            <ImageView
+                android:id="@+id/uhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/boy"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="11.0dip"/>
+            
+            <Button
+                android:id="@+id/compileview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bjziliao"
+                android:layout_marginTop="15.0dip"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginTop="23.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                
+
+                    <!-- 问题数 -->
+
+                    <LinearLayout
+                        android:id="@+id/issueview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                        <ImageView
+                        	android:layout_width="wrap_content"
+                        	android:layout_height="wrap_content"
+                        	android:src="@drawable/datum_a"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="解答问题" />
+
+                        <TextView
+                            android:id="@+id/issueNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="57" />
+                    </LinearLayout>
+
+                    <!-- 我的老师 -->
+
+                    <LinearLayout
+                        android:id="@+id/teacherview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                       <ImageView
+                        	android:layout_width="wrap_content"
+                        	android:layout_height="wrap_content"
+                        	android:src="@drawable/datum_b"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="我的学生" />
+
+                        <TextView
+                            android:id="@+id/sNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="57" />
+                    </LinearLayout>
+
+                    <!-- 我的收藏 -->
+
+                    <LinearLayout
+                        android:id="@+id/collectview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                       <ImageView
+                        	android:layout_width="wrap_content"
+                        	android:layout_height="wrap_content"
+                        	android:src="@drawable/datum_b"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="我的收藏" />
+
+                        <TextView
+                            android:id="@+id/collectNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="57" />
+                    </LinearLayout>
+              
+
+                <!-- 第二行 -->
+
+
+                    <!-- 我的通知 -->
+
+                    <LinearLayout
+                        android:id="@+id/informview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+                       <ImageView
+                        	android:layout_width="wrap_content"
+                        	android:layout_height="wrap_content"
+                        	android:src="@drawable/datum_d"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="我的通知" />
+
+                        <TextView
+                            android:id="@+id/informNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="57" />
+                    </LinearLayout>
+
+                    <!-- 我的金币 -->
+
+                    <LinearLayout      
+                        android:id="@+id/surplusgold"  
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                       <ImageView
+                        	android:layout_width="wrap_content"
+                        	android:layout_height="wrap_content"
+                        	android:src="@drawable/datum_e"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="剩余金币" />
+
+                        <TextView
+                            android:id="@+id/goldNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="22" />
+                    </LinearLayout>
+            </LinearLayout>
+
+
+
+            <!-- 去充值 -->
+
+
+                <Button
+                    android:id="@+id/chongzhiview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5.0dip"
+                    android:text="去提现" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:orientation="vertical"
+        android:paddingLeft="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="交易记录" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5.0dip">
+
+
+
+                <EditText
+                    android:id="@+id/cyear"
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:hint="开始时间" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="到" />
+
+                <EditText
+                    android:id="@+id/dyear"
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:hint="结束时间" />
+
+        </LinearLayout>
+           <Button
+                android:id="@+id/search"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5.0dip"
+                android:text="查  询" />
+    </LinearLayout>
+
+</LinearLayout>

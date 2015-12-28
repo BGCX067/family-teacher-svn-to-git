@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.familyedu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    
+    <uses-sdk android:minSdkVersion="7" />
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Foo" >
+        
+        <activity
+            android:name=".GuideActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".LoginActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name=".RegistChooseActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name=".StudentRegistActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name=".TeacherRegistActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name=".FamilyEduActivity" android:screenOrientation="portrait" />
+ 		<activity android:name=".ClipPictureActivity" android:screenOrientation="portrait" />       
+        <activity android:name=".FamilyEduTeacherActivity" android:screenOrientation="portrait" />
+ 		
+        <!-- 学生端 -->
+        <activity android:name=".student.EduMainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".student.EduQuizActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".student.EduIssueWallActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".student.EduMyEducationActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".student.EduMoreActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduCompositionActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduIssueConYActvity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduMyTeachersActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduFavoriteActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduMyInformActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduConsumptionActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduChongzhiActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduFeedbackActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduMyTeacher_ConListActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduIssueWall_queryConActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".student.EduEditInFormationStudentActivity" android:screenOrientation="portrait"/>
+    	
+    	
+    	<!-- 教师端 -->
+    	<activity android:name=".teacher.MainTabTecActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduIssueWallTeacherActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduMainTeacherActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduMoreTeacherActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduMyClassRoomActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduQuizTeacherActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduMyStudentActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduMyStudent_ConListActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduConsumptionTeacherActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduTiXianActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduEditInFormation" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduIssueConTeacherActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduAnswerIssueActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduAnwerIssueConTeacherActivity" android:screenOrientation="portrait"/>
+    	<activity android:name=".teacher.EduIssueWallConTeacherActivity" android:screenOrientation="portrait"/>
+    	
+    </application>
+
+    
+</manifest>

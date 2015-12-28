@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 教师底层tab  问题强selector -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_checked="false" android:drawable="@drawable/icon_sszn_out" />
+	<item android:state_checked="true" android:drawable="@drawable/icon_sszn_over" />
+</selector> 

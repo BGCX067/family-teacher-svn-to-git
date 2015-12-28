@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/homepage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:background="#FFF" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+
+        <!-- TabHost -->
+
+        <LinearLayout
+            android:id="@+id/main_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/maintab_toolbar_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tvgossip"
+                style="@style/main_tab_top"
+                android:layout_marginTop="2.0dip"
+                android:textSize="15sp"
+                android:text="首页" />
+
+            <Button
+                android:id="@+id/tvmeanguide"
+                style="@style/main_tab_top"
+                android:layout_marginTop="2.0dip"
+                android:textSize="15sp"
+                android:text="问题墙" />
+
+            <Button
+                android:id="@+id/tvguide"
+                style="@style/main_tab_top"
+                android:layout_marginTop="2.0dip"
+                android:textSize="15sp"
+                android:text="提问" />
+
+            <Button
+                android:id="@+id/programparade"
+                style="@style/main_tab_top"
+                android:layout_marginTop="2.0dip"
+                android:textSize="15sp"
+                android:text="我的家教" />
+
+            <Button
+                android:id="@+id/star"
+                style="@style/main_tab_top"
+                android:layout_marginTop="2.0dip"
+                android:textSize="15sp"
+                android:text="更多" />
+        </LinearLayout>
+        <!-- 设置一个空白区域 -->
+
+    </LinearLayout>
+
+</TabHost>

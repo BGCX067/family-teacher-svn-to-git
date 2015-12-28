@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 教师端底部Tab ，负责页面调度 -->
+<TabHost 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@android:id/tabhost" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:background="#ffffff">
+
+<LinearLayout
+    android:id="@+id/homepage" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+
+    <FrameLayout 
+        android:id="@android:id/tabcontent" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0.0dip"
+    	android:layout_weight="1.0"
+        android:background="#FFF"/>
+    
+    <TabWidget 
+        android:id="@android:id/tabs" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0" 
+        android:visibility="gone" />
+    
+      
+<!--  TabHost --> 
+	<RadioGroup 
+				android:id="@+id/main_tab" android:orientation="horizontal" 
+		 		android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		 		android:gravity="center" android:background="@drawable/maintab_toolbar_bg">
+  			<!-- android:drawableTop="@drawable/icon_dsbg_out"  -->
+  			<!-- 首页 -->
+  		<RadioButton 
+  			android:layout_marginTop="2.0dip" android:background="@drawable/tab_teacher_homepage_selector" 
+  			android:id="@+id/rbHomePage" style="@style/main_tab_top01" android:checked="true"
+  			android:textSize="15sp"/> 
+  			<!-- 账户 -->
+  		<RadioButton 
+  			android:layout_marginTop="2.0dip" android:background="@drawable/tab_teacher_account_selector" 
+  			android:id="@+id/rbAccount" style="@style/main_tab_top02" 
+  			android:textSize="15sp"/> 
+  		<!-- android:checked="true" -->
+  		<!-- 问题强 -->
+  		<RadioButton 
+  			android:layout_marginTop="2.0dip" android:background="@drawable/tab_teacher_questions_selector" 
+  			android:id="@+id/rbQuestions" style="@style/main_tab_top03" android:textSize="15sp"/>
+  		<!-- 我的教室 --> 
+  		<RadioButton 
+  			android:layout_marginTop="2.0dip" android:background="@drawable/tab_teacher_myclassroom_selector" 
+  			android:id="@+id/rbMyClassRoom" style="@style/main_tab_top04" android:textSize="15sp"/>
+  		<!-- 更多 --> 
+  		<RadioButton 
+  			android:layout_marginTop="2.0dip" android:background="@drawable/tab_teacher_more_selector" 
+  			android:id="@+id/rbMore" style="@style/main_tab_top03" android:textSize="15sp"/> 
+  </RadioGroup>
+<!--  设置一个空白区域  --> 
+  
+  </LinearLayout>
+  </TabHost>

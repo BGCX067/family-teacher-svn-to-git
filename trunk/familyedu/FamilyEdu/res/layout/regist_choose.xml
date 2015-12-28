@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    >
+
+    <!-- 头像 -->
+   <LinearLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal|bottom"
+    android:layout_weight="2"
+       >
+       <ImageView 
+            android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/avatar"
+           />
+   </LinearLayout>
+   <!-- 选择 -->
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+       android:layout_gravity="center"
+       android:layout_weight="1"
+       android:orientation="vertical" >
+
+       <TextView 
+            android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_horizontal"
+           android:text="欢迎注册贴身家教"
+           />
+
+       <Button
+           android:id="@+id/btnTeacherReg"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="老师注册" />
+       <Button
+            android:id="@+id/btnStudentReg"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="学生注册" />
+   </LinearLayout>
+ 
+</LinearLayout>

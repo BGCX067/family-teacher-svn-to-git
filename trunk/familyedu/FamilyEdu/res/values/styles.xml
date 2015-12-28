@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="main_tab_top">
+	<item name="android:textSize">@dimen/bottom_tab_font_size</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@null</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item> 
+	<item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+ 	<item name="android:layout_weight">1</item>
+</style>
+
+    <!-- TabHost -->
+<style name="main_tab_top01">
+	<item name="android:textSize">@dimen/bottom_tab_font_size</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@null</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item> 
+	<item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+ 	<item name="android:layout_weight">0.25</item>
+</style>
+<!--     <item name="android:background">@drawable/home_btn_bg01</item> -->
+<style name="main_tab_top02">
+	<item name="android:textSize">@dimen/bottom_tab_font_size</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@null</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item> 
+	<item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+	<item name="android:layout_weight">0.25</item>
+</style>
+<style name="main_tab_top03">
+	<item name="android:textSize">@dimen/bottom_tab_font_size</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@null</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item> 
+	<item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+ 	<item name="android:layout_weight">0.25</item>
+</style>
+<style name="main_tab_top04">
+	<item name="android:textSize">@dimen/bottom_tab_font_size</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@null</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item> 
+	<item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+ 	<item name="android:layout_weight">0.25</item>
+</style>
+
+ <style name="Theme.Foo" parent="android:style/Theme.Light"> 
+    <item name="android:windowContentOverlay">@null</item> 
+</style>
+</resources>

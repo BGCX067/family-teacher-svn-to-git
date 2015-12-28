@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="subject_items">
+        <item>语文</item>
+        <item>数学</item>
+        <item>英语</item>
+        <item>化学</item>
+    </string-array>
+
+       <string-array name="grade_items">
+        <item>小学一年级</item>
+        <item>小学二年级</item>
+        <item>小学三年级</item>
+        <item>小学四年级</item>
+    </string-array>
+</resources>

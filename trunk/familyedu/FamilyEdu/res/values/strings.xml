@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FamilyEduActivity!</string>
+    <string name="app_name">FamilyEdu</string>
+	<string name="text_a">您可以有如下方法购买贴身家教充值卡：</string>
+	<string name="text_b">一、登陆114.com网站，从充值页输入购买的充值卡账号和密码充值。</string>
+	<string name="text_c">二、 拨打客服电话 400-8889-9999，询问客服充值方法。</string>
+	<string name="explain">你好，我是贴身家教小秘书，关于贴身家教的任何问题和意见都可以告诉我哦！</string>
+	
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="title_spinner_subject">请选择学科</string>
+    <string name="title_spinner_grade">请选择年级</string>
+    
+    <string name="tixian_a">您可以有如下方法提现：</string>
+	<string name="tixian_b">一、登陆114.com网站，从页面提现。</string>
+	<string name="tixian_c">二、 拨打客服电话 400-8889-9999，询问客服充值方法。</string>
+</resources>

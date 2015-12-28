@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 头像 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返 回" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/avatar" />
+
+        <Button
+            android:id="@+id/btnRegist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注 册" />
+    </LinearLayout>
+    <!-- 邮箱，密码 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="用户名" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="密 码" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="邮 箱" />
+
+        <!-- 学科年级 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/spSubject"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/subject_items"
+                android:prompt="@string/title_spinner_subject" />
+
+            <Spinner
+                android:id="@+id/spGrade"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/grade_items"
+                android:prompt="@string/title_spinner_grade" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 注册 -->
+
+    <LinearLayout
+        android:id="@+id/llGoStudentReg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="bottom" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="不是老师？学生注册>" />
+    </LinearLayout>
+
+</LinearLayout>
